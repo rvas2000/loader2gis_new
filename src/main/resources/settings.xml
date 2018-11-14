@@ -1,0 +1,14 @@
+<?cml version="1.0" encoding="UTF-8"?>
+<settings>
+    <db>
+        <server>localhost</server>
+        <port></port>
+        <db_name></db_name>
+        <login></login>
+        <password></password>
+    </db>
+    <redis>
+        <server>localhost</server>
+        <port>16379</port>
+    </redis>
+</settings>

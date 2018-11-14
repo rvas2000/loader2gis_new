@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <settings>
+        <db>
+            <server>localhost</server>
+            <!--<port>54322</port>-->
+            <port>5432</port>
+            <db_name>living</db_name>
+            <login>root</login>
+            <!--<password>Z5S8YitL6fnTqLchGjwrPNDV6hqSZkkQ</password>-->
+            <password>31415926</password>
+        </db>
+        <redis>
+            <server>localhost</server>
+            <!--<port>16379</port>-->
+            <port>6379</port>
+        </redis>
+    </settings>
+    <cities>
+        <city city_id="77" latitude="55.754013" longitude="37.620353" radius="40000" name="moscow"/>
+        <city city_id="78" latitude="59.938093" longitude="30.313902" radius="40000" name="spb"/>
+        <city city_id="661" latitude="56.837997" longitude="60.597574" radius="20000" name=""/>
+        <city city_id="161" latitude="55.796934" longitude="49.107198" radius="20000" name=""/>
+        <city city_id="391" latitude="54.706505" longitude="20.511642" radius="20000" name=""/>
+        <city city_id="611" latitude="47.222442" longitude="39.718917" radius="20000" name=""/>
+        <city city_id="231" latitude="45.035572" longitude="38.974931" radius="20000" name=""/>
+        <city city_id="232" latitude="43.585353" longitude="39.723031" radius="20000" name=""/>
+        <city city_id="331" latitude="56.128421" longitude="40.407707" radius="20000" name=""/>
+    </cities>
+    <categories>
+
+        <category living_category_id="1">
+            <stop_words>
+                <word>частная</word>
+                <word>здоровья</word>
+                <word>центр</word>
+            </stop_words>
+            <search_words>
+                <word>начальная</word>
+                <word>общеобразовательная</word>
+                <word>гимназия</word>
+                <word>лицей</word>
+                <word>школа №</word>
+            </search_words>
+            <rubrics>
+                <rubric>245</rubric>
+                <rubric>15761</rubric>
+                <rubric>15287</rubric>
+                <rubric>683</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="2">
+            <stop_words>
+                <word>частная</word>
+                <word>частный</word>
+            </stop_words>
+            <search_words>
+                <word>детский сад №</word>
+                <word>ясли</word>
+                <word>дошкольным</word>
+            </search_words>
+            <rubrics>
+                <rubric>237</rubric>
+                <rubric>15761</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="3">
+            <stop_words/>
+            <search_words>
+                <word>аптека</word>
+                <word>аптек</word>
+                <word>аптечный</word>
+            </search_words>
+            <rubrics>
+                <rubric>207</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="4">
+            <stop_words>
+                <word>красоты</word>
+                <word>здоровья</word>
+                <word>магазин</word>
+            </stop_words>
+            <search_words>
+                <word>фитнес</word>
+                <word>физкультурно-оздоровительный</word>
+                <word>спорт</word>
+                <word>спортивный</word>
+                <word>спортивных</word>
+                <word>студия танцев</word>
+                <word>танцы</word>
+            </search_words>
+            <rubrics>
+                <rubric>267</rubric>
+                <rubric>268</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="5">
+            <stop_words>
+                <word>сеть</word>
+            </stop_words>
+            <search_words>
+                <word>поликлиника</word>
+                <word>поликлиника №</word>
+                <word>детская</word>
+                <word>общей практики</word>
+                <word>амбулатория</word>
+            </search_words>
+            <rubrics>
+                <rubric>23765</rubric>
+                <rubric>225</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="6">
+            <stop_words/>
+            <search_words>
+                <word>поликлиника №</word>
+                <word>городская</word>
+                <word>поликлиника</word>
+                <word> амбулатория</word>
+            </search_words>
+            <rubrics>
+                <rubric>224</rubric>
+                <rubric>23765</rubric>
+            </rubrics>
+        </category>
+
+        <category living_category_id="7">
+            <stop_words/>
+            <search_words>
+                <word>Стоматологическая поликлиника №</word>
+            </search_words>
+            <rubrics>
+                <rubric>226</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="8">
+            <stop_words/>
+            <search_words>
+                <word>диспансер</word>
+            </search_words>
+            <rubrics>
+                <rubric>206</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="9">
+            <stop_words>
+                <word>Максидом</word>
+            </stop_words>
+            <search_words>
+                <word>универсам</word>
+                <word>сеть-супермаркетов</word>
+                <word>супермаркет</word>
+            </search_words>
+            <rubrics>
+                <rubric>350</rubric>
+                <rubric>12127</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="10">
+            <stop_words/>
+            <search_words>
+                <word>центр</word>
+                <word>комплекс</word>
+            </search_words>
+            <rubrics>
+                <rubric>19499</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="11">
+            <stop_words/>
+            <search_words/>
+            <rubrics>
+                <rubric>168</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="12">
+            <stop_words/>
+            <search_words>
+                <word>кооператив</word>
+            </search_words>
+            <rubrics>
+                <rubric>8533</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="13">
+            <stop_words>
+                <word>магазин</word>
+            </stop_words>
+            <search_words/>
+            <rubrics>
+                <rubric>110406</rubric>
+                <rubric>5279</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="14">
+            <stop_words>
+                <word>мемориальное</word>
+            </stop_words>
+            <search_words/>
+            <rubrics>
+                <rubric>323</rubric>
+            </rubrics>
+        </category>
+
+
+        <category living_category_id="15">
+            <stop_words>
+                <word>частная</word>
+            </stop_words>
+            <search_words/>
+            <rubrics>
+                <rubric>227</rubric>
+            </rubrics>
+        </category>
+
+
+
+    </categories>
+</config>
