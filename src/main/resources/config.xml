@@ -3,12 +3,10 @@
     <settings>
         <db>
             <server>localhost</server>
-            <!--<port>54322</port>-->
             <port>5432</port>
             <db_name>living</db_name>
             <login>root</login>
-            <!--<password>Z5S8YitL6fnTqLchGjwrPNDV6hqSZkkQ</password>-->
-            <password>31415926</password>
+            <password>1111111111</password>
         </db>
         <redis>
             <server>localhost</server>
